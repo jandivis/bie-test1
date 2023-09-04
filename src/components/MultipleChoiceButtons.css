@@ -1,0 +1,14 @@
+.container-main {
+    color: rgb(252, 250, 252);
+    border: none;
+    text-align: center;
+    background-color: rgba(194, 182, 18, 0.048);
+    border-radius: 15px;
+    background-image: url(https://media.istockphoto.com/photos/football-on-grass-against-dark-background-picture-id477431413?k=20&m=477431413&s=612x612&w=0&h=PKCON1x7BT07g96MhWFnqbnZWvoetTVZhXTeHH1Ngvg=);
+    
+
+}
+
+.container-main:hover {
+    background-color: rgba(25, 24, 23, 0.243);
+}

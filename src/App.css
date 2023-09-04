@@ -1,38 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(248, 232, 55, 0.264);
+    background-image: url('/public/images/Obrázek3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.head-ppc img{
+    width: 450px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Zvolte vhodný font, který je k dispozici na většině zařízení */
+    font-size: 18px; /* Velikost písma */
+    font-weight: bold; /* Tučné písmo */
+    text-transform: uppercase; /* Text ve velkých písmenech */
+    letter-spacing: 2px; /* Mezery mezi písmeny */
+    color: #ff9100; /* Barva textu, můžete upravit na vhodnou oranžovou */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.head-ppc {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-h1 {
+    color: rgba(37, 37, 7, 0.723);
+    font-family: 'Arial', sans-serif; /* Zvolte vhodný font, který je k dispozici na většině zařízení */
+    font-size: 36px; /* Velikost písma */
+    font-weight: bold; /* Tučné písmo */
+    text-transform: uppercase; /* Text ve velkých písmenech */
+    letter-spacing: 2px; /* Mezery mezi písmeny */
+    color: #ff9100; /* Barva textu, můžete upravit na vhodnou oranžovou */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chose-country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
